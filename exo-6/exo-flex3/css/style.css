@@ -1,0 +1,31 @@
+header, footer {
+    background-color: blue;
+    height: 100px;
+}
+header {
+    margin-bottom: 5px;
+}
+nav, aside {
+    background-color: coral;
+    width: 20vw;
+}
+body {
+    min-height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+nav {
+    order: -1;
+    margin-right: 5px;
+}
+article {
+    margin-right: 5px; 
+    width: calc(100vw - 10px);
+    background-color: cornflowerblue;
+
+}
+.container {
+    min-height:  calc(100vh - 200px);
+    display: flex;
+}

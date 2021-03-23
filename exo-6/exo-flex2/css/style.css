@@ -1,0 +1,29 @@
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: chocolate;
+    height: 25vh;
+    margin: 5px;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.flex {
+    display: flex;
+}
+.un {
+    width: 100vw;
+}
+
+.deux > div {
+    width: 50vw;
+}
+.trois > div {
+    width: 33vw;
+}
+.douze > div {
+    width: 8vw;
+}

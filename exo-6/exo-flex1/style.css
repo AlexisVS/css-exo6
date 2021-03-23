@@ -1,0 +1,27 @@
+body, html {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.flex-container {
+    background-color: rgb(235, 195, 111);
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+}
+.flex-item {
+    margin: 0 15px;
+    background-color: darkorange;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+.flex-item:first-of-type {
+    background-color: darkorange;
+    display: flex;
+    height: auto;
+    padding-top: 45px;
+    padding-bottom: 139px;
+}
